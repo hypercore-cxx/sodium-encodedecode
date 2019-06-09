@@ -1,0 +1,26 @@
+{
+  "name": "sodium-base64",
+  "description": "libsodium base64 functions",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:datcxx/sodium-base64.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "clang++ test/index.cxx -o test/index && ./test/index",
+    "getsodium": "node install.js",
+    "install": "build find sodium || build run getsodium"
+  },
+  "flags": [
+    "-lsodium",
+    "-std=c++2a",
+    "-stdlib=libc++"
+  ],
+  "files": [
+    "index.hxx",
+    "index.cxx"
+  ],
+  "devDependencies": {
+    "git@github.com:heapwolf/cxx-tap": "07821de0"
+  }
+}
