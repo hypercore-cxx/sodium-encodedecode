@@ -1,5 +1,5 @@
-#ifndef HYPER_SODIUM_H
-#define HYPER_SODIUM_H
+#ifndef HYPER_SODIUM_BASE64_H
+#define HYPER_SODIUM_BASE64_H
 
 #include <string>
 #include <sodium.h>
