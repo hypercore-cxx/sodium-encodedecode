@@ -61,8 +61,8 @@ int main() {
   });
 
   t.test("hex encode/decode", [](auto t) {
-    std::string v("Hello, world");
-    std::string expected("48656c6c6f2c20776f726c64");
+    std::string v("Hello, world!");
+    std::string expected("48656c6c6f2c20776f726c6421");
 
     auto encoded = Hyper::Sodium::Hex::encode(v);
     t->equal(encoded, expected, "hex encoded matched");

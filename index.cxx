@@ -48,6 +48,7 @@ namespace Hyper {
         out.resize(len * 2);
 
         sodium_bin2hex(&out[0], len * 2 + 1, (unsigned char*) &str[0], len);
+        out.resize(out.size());
         return out;
       }
 

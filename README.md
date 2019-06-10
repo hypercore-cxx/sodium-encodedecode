@@ -40,7 +40,7 @@ auto decoded = Hyper::Sodium::Base64::decode(encoded);
 
 ```c++
 auto encoded = Hyper::Sodium::Hex::encode("Hello, world!");
-// encoded == "48656c6c6f2c20776f726c64"
+// encoded == "48656c6c6f2c20776f726c6421"
 
 auto decoded = Hyper::Sodium::Hex::decode(encoded);
 // decoded == "Hello, world!"
