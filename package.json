@@ -1,9 +1,9 @@
 {
-  "name": "sodium-base64",
-  "description": "libsodium base64 functions",
+  "name": "sodium-encoding",
+  "description": "libsodium encoding and decoding functions",
   "repository": {
     "type": "git",
-    "url": "git@github.com:datcxx/sodium-base64.git"
+    "url": "git@github.com:datcxx/sodium-encoding.git"
   },
   "license": "MIT",
   "scripts": {
