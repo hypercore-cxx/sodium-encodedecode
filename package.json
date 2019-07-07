@@ -21,6 +21,6 @@
     "index.cxx"
   ],
   "devDependencies": {
-    "git@github.com:heapwolf/cxx-tap": "07821de0"
+    "git@github.com:heapwolf/cxx-tap": "e1f45be9"
   }
 }
